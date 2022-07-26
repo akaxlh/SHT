@@ -12,11 +12,11 @@ If you want to use our codes and datasets in your research, please cite:
 @inproceedings{sht2022,
   author    = {Xia, Lianghao and
                Huang, Chao and
-			   Zhang, Chuxu},
+	       Zhang, Chuxu},
   title     = {Self-Supervised Hypergraph Transformer for Recommender Systems},
   booktitle = {Proceedings of the 28th {ACM} {SIGKDD} Conference on
                Knowledge Discovery and Data Mining, {KDD} 2022, 
-			   Washington DC, USA, August 14-18, 2022.},
+	       Washington DC, USA, August 14-18, 2022.},
   year      = {2022},
 }
 ```
