@@ -1,7 +1,7 @@
 # Self-Supervised Hypergraph Transformer for Recommender Systems
 
 This repository contains TensorFlow codes and datasets for the paper:
-> Lianghao Xia, Chao Huang, Chuxu Zhang (2022). Self-Supervised Hypergraph Transformer for Recommender Systems. In KDD'22, Washington DC, USA, August 14-18, 2022.
+> Lianghao Xia, Chao Huang, Chuxu Zhang (2022). Self-Supervised Hypergraph Transformer for Recommender Systems, <a href='https://arxiv.org/pdf/2207.14338.pdf'>Paper in arXiv</a>, <a href='https://dl.acm.org/doi/pdf/10.1145/3534678.3539473'> Paper in ACM</a>. In KDD'22, Washington DC, USA, August 14-18, 2022.
 
 ## Introduction
 This paper proposed a hypergraph transformer model named SHT to tackle the data sparsity and noise problem in collaborative filtering. It combines user/item id embedding with the topology-aware embedding given by GCNs as the local view, and learns the latent global relations in a transformer-like hypergraph encoder. The local embeddings are then denoised by the global view using an augmented solidity differentiation task. Comparing to our previous work <a href='https://github.com/akaxlh/HCCF'>HCCF</a> which is on hypergraph contrastive learning for CF, this paper proposes the novel hypergraph transformer architecture with the self-augmented solidity differentiation task, and highlights the strength of generative self-supervised learning.
@@ -22,7 +22,7 @@ If you want to use our codes and datasets in your research, please cite:
 ```
 
 ## Environment
-The codes of HCCF are implemented and tested under the following development environment:
+The codes of SHT are implemented and tested under the following development environment:
 * python=3.7.0
 * tensorflow=1.15.0
 * numpy=1.21.6
